@@ -1,3 +1,9 @@
+# Project Origin
+With The Infinite Jukebox, you can create a never-ending and ever changing version of any song.   The app works by sending your uploaded track over to The Echo Nest, where it is decomposed into individual beats.  Each beat is then analyzed and matched to other similar sounding beats in the song.  This information is used to create a detailed song graph of paths though similar sounding beats.  As the song is played,  when the next beat  has similar sounding beats there’s a chance that we will branch to a completely different part of the song. Since the branching is to a very similar sounding beat in the song, you (in theory) won’t notice the jump.  This process of branching to similar sounding beats can continue forever, giving you an infinitely long version of the song.
+
+To accompany the playback,  I created a chord diagram that shows the beats of the song along the circumference of the circle along with with chords representing the possible paths from each beat to it’s similar neighbors.  When the song is not playing, you can mouse over any beat and see all of the possible paths for that beat.  When the song is playing, the visualization shows the single next potential beat.  I was quite pleased at how the visualization turned out. I think it does a good job of helping the listener understand what is going on under the hood, and different songs have very different looks and color palettes. They can be quite attractive.
+https://musicmachinery.com/2012/11/12/the-infinite-jukebox/
+
 # EternalJukebox
 
 The source files for the EternalJukebox, a rehosting of the Infinite Jukebox.  
